@@ -2,6 +2,10 @@
     <string name="app_name">MapaMundiTierraMediaJaimeNavarro</string>
 
     <string name="titulo_mapa">Mapamundi de la Tierra Media</string>
-    <string name="seleccionar_región">Selecciona una región</string>
+    <string name="seleccionar_region">Selecciona una región</string>
     <string name="anillo">El anillo único</string>
+
+    <string name="gondor">Icono de Gondor</string>
+    <string name="rohan">Icono de Rohan</string>
+    <string name="mordor">Icono de Mordor</string>
 </resources>

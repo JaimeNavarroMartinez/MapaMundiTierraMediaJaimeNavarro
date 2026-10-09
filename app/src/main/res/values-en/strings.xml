@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo_mapa">Map of Middle-earth</string>
+    <string name="seleccionar_region">Select a region</string>
+    <string name="anillo">The One Ring</string>
+
+    <string name="gondor">Gondor icon</string>
+    <string name="rohan">Rohan icon</string>
+    <string name="mordor">Mordor icon</string>
+</resources>

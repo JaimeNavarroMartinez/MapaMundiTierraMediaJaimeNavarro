@@ -9,26 +9,22 @@
 
     <TextView
         android:id="@+id/tvTitulo"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:gravity="center"
         android:text="@string/titulo_mapa"
-        app:layout_constraintBottom_toTopOf="@+id/zonaMapa"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toStartOf="@+id/zonaMapa"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="spread" />
+        app:layout_constraintTop_toTopOf="@+id/zonaMapa" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/zonaMapa"
         android:layout_width="280dp"
         android:layout_height="280dp"
-        app:layout_constraintBottom_toTopOf="@+id/tvInstrucciones"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitulo">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/ivAnillo"
@@ -84,13 +80,13 @@
 
     <TextView
         android:id="@+id/tvInstrucciones"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
         android:text="@string/seleccionar_region"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/zonaMapa" />
+        app:layout_constraintBottom_toBottomOf="@+id/zonaMapa"
+        app:layout_constraintEnd_toStartOf="@+id/zonaMapa"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
