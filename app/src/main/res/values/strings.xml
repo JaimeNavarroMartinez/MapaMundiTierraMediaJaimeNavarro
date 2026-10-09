@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapaMundiTierraMediaJaimeNavarro</string>
+
+    <string name="titulo_mapa">Mapamundi de la Tierra Media</string>
+    <string name="seleccionar_región">Selecciona una región</string>
+    <string name="anillo">El anillo único</string>
+</resources>
