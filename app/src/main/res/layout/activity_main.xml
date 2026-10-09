@@ -17,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/zonaMapa"
@@ -39,6 +40,39 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@android:drawable/ic_menu_compass" />
+
+        <ImageView
+            android:id="@+id/ivGondor"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintCircle="@id/ivAnillo"
+            app:layout_constraintCircleAngle="0"
+            app:layout_constraintCircleRadius="100dp"
+            app:srcCompat="@android:drawable/ic_dialog_alert"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <ImageView
+            android:id="@+id/ivRohan"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintCircle="@id/ivAnillo"
+            app:layout_constraintCircleAngle="120"
+            app:layout_constraintCircleRadius="100dp"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <ImageView
+            android:id="@+id/ivMordor"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintCircle="@id/ivAnillo"
+            app:layout_constraintCircleAngle="240"
+            app:layout_constraintCircleRadius="100dp"
+            app:srcCompat="@android:drawable/btn_radio"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="116dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
